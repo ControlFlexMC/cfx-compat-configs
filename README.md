@@ -2,7 +2,7 @@
 
 [中文](./README_CN.md)
 
-Community **mod compatibility configs** for [ControlFlex](https://github.com/ControlFlexMC/control-flex) (CFX): JSON files that tell the mod how to handle third-party key bindings, stick modes, cross-layer keys, and related behavior.
+Community **mod compatibility configs** for [ControlFlex](https://www.curseforge.com/minecraft/mc-mods/control-flex) (CFX): JSON files that tell the mod how to handle third-party key bindings, stick modes, cross-layer keys, and related behavior.
 
 Copy `{modid}_keys.json` from [`compat/`](./compat/) into your **game instance**:
 
@@ -58,21 +58,6 @@ If `mods` is directly under the instance folder, use:
 ```text
 <instance>/config/controlflex/compat/
 ```
-
-#### Common launcher paths
-
-Replace `<Instance>` with your profile / instance name. Paths use `/` on macOS and Linux; on Windows use `\` and `%APPDATA%` / `%USERPROFILE%` as shown.
-
-| Launcher | Typical path |
-|----------|----------------|
-| **Official Minecraft Launcher** | **Windows:** `%APPDATA%\.minecraft\config\controlflex\compat\`<br>**macOS:** `~/Library/Application Support/minecraft/config/controlflex/compat/`<br>**Linux:** `~/.minecraft/config/controlflex/compat/` |
-| **Prism Launcher** / **Prism Launcher CE** / **MultiMC** / **PolyMC** | `<Instance>/.minecraft/config/controlflex/compat/`<br>or `<Instance>/minecraft/config/controlflex/compat/` (whichever contains `mods/`) |
-| **CurseForge** (Overwolf) | **Windows:** `%USERPROFILE%\curseforge\minecraft\Instances\<Instance>\config\controlflex\compat\`<br>**macOS:** `~/Documents/curseforge/minecraft/Instances/<Instance>/config/controlflex/compat/` (may vary by install) |
-| **Modrinth App** | **Windows:** `%APPDATA%\ModrinthApp\profiles\<Instance>\config\controlflex\compat\`<br>**macOS:** `~/Library/Application Support/ModrinthApp/profiles/<Instance>/config/controlflex/compat/`<br>**Linux (Flatpak):** `~/.var/app/com.modrinth.theseus/data/ModrinthApp/profiles/<Instance>/config/controlflex/compat/` |
-| **ATLauncher** | `<ATLauncher>/instances/<Instance>/config/controlflex/compat/` |
-| **GDLauncher** / **Helios Launcher** | `<instances>/<Instance>/config/controlflex/compat/` (next to `mods/`) |
-
-If your launcher is not listed, use **Open instance folder** in the launcher UI and search for an existing `config/controlflex/` directory (created after ControlFlex runs once), or create `config/controlflex/compat/` next to `mods/`.
 
 ---
 
