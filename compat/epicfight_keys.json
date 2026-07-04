@@ -1,0 +1,43 @@
+{
+  "mod_id": "epicfight",
+  "mod_name": "Epic Fight",
+  "home_page": "https://www.curseforge.com/minecraft/mc-mods/epic-fight-mod",
+  "loader": "forge",
+  "versions": [
+    {
+      "version": "",
+      "ignoreKeys": [
+        "key.epicfight.switch_vanilla_model_debug",
+        "key.epicfight.config"
+      ],
+      "guiKeys": [
+        "key.epicfight.show_tooltip"
+      ],
+      "skipForgeKeys": [
+        "key.epicfight.switch_mode",
+        "key.epicfight.guard",
+        "key.epicfight.attack",
+        "key.epicfight.weapon_innate_skill",
+        "key.epicfight.dodge",
+        "key.epicfight.mover_skill",
+        "key.epicfight.lock_on",
+        "key.epicfight.lock_on_shift_left",
+        "key.epicfight.lock_on_shift_right",
+        "key.epicfight.lock_on_shift_freely"
+      ],
+      "skipVanillaKeys": [
+      ],
+      "itemSuppressKeys": [
+      ],
+      "tips": [
+        {
+          "key": "key.epicfight.weapon_innate_skill",
+          "text": {
+            "en_us": "If weapon special attack doesn't work, bind this to the same key as Attack and use HOLD mode",
+            "zh_cn": "若武器特殊攻击无法触发，请将其绑定为与'攻击'相同的按键，并使用 HOLD 模式"
+          }
+        }
+      ]
+    }
+  ]
+}

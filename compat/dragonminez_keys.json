@@ -1,0 +1,45 @@
+{
+  "mod_id": "dragonminez",
+  "mod_name": "DragonMine Z",
+  "home_page": "https://www.curseforge.com/minecraft/mc-mods/dragonminez",
+  "loader": "both",
+  "versions": [
+    {
+      "version": "",
+      "skipForgeKeys": [],
+      "skipVanillaKeys": [],
+      "ignoreKeys": [],
+      "guiKeys": [],
+      "specialActionKeys": [
+        {
+          "keyName": "key.dragonminez.utility_menu",
+          "flags": ["GLFW_COMPAT", "PHASE_PERSISTENT"]
+        }
+      ],
+      "tips": [
+        {
+          "key": "key.dragonminez.utility_menu",
+          "text": {
+            "en_us": "Hold to open the DragonMineZ utility menu. Use HOLD mode only. Do not bind the same button as a layer-switch key."         
+          }
+        }
+      ],
+      "leftStick": [
+        {
+          "screens": ["com.dragonminez.client.gui.UtilityMenuScreen"],
+          "mode": "VIRTUAL_MOUSE"
+        }
+      ],
+      "rightStick": [
+        {
+          "screens": ["com.dragonminez.client.gui.UtilityMenuScreen"],
+          "mode": "RADIAL_CURSOR",
+          "threshold": 0.5,
+          "cursorRadius": 90,
+          "returnToCenter": false,
+          "angleBias": 1.0
+        }
+      ]
+    }
+  ]
+}
