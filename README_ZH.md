@@ -7,10 +7,13 @@
 将 [`compat/`](./compat/) 下的 `{modid}_keys.json` 复制到**游戏实例**目录中：
 
 ```text
-config/controlflex/compat/
+config/controlflex/compat/user/
 ```
 
-该目录位于实例的**游戏根目录**下——与 `mods/`、`saves/`、`config/` 同级。完整路径因启动器与操作系统而异（见下文）。
+ControlFlex 按三层目录加载 compat 配置（优先级 `user` > `mods` > `default`）：
+- `default/` — ControlFlex 内置配置
+- `mods/` — 桥接模组安装（cfx-compat-* 系列模组）
+- **`user/`** — 你的自定义配置（最高优先级，永不被覆盖）
 
 新增或修改配置后需**重启游戏**。在 `latest.log` 中搜索 `[ModCompat]` 确认是否加载成功。
 
@@ -32,19 +35,19 @@ compat/
 ## 如何使用
 
 1. 从 [`compat/`](./compat/) 复制 `{modid}_keys.json`。
-2. 放入实例内的 **`config/controlflex/compat/`**（没有则新建）。
+2. 放入实例内的 **`config/controlflex/compat/user/`**（没有则新建）。
 3. 重启 Minecraft。
 4. 打开 ControlFlex 设置，确认该模组按键显示与行为正常。
 5. 若异常，在日志中搜索 `[ModCompat] Failed to load compat config`（最常见为 JSON 语法错误）。
 
-ControlFlex 安装包内置的配置会在首次启动时解压到上述目录，**不会覆盖**你已有的文件。
+ControlFlex 内置配置解压到 `default/` 目录，**不会覆盖** `user/` 中你已有的文件。
 
-### `config/controlflex/compat/` 在哪里？
+### `config/controlflex/compat/user/` 在哪里？
 
 **简便找法：** 在启动器里打开实例文件夹（「打开文件夹」「实例目录」等）。找到包含 **`mods/`** 的那一层，即为游戏根目录。compat 文件路径为：
 
 ```text
-<游戏根目录>/config/controlflex/compat/{modid}_keys.json
+<游戏根目录>/config/controlflex/compat/user/{modid}_keys.json
 ```
 
 部分启动器会把游戏根目录放在 `.minecraft` 或 `minecraft` 子文件夹里。若 `mods` 在 `.minecraft` 内，则使用：

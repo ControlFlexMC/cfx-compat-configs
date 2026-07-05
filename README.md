@@ -1,16 +1,19 @@
 # cfx-compat-configs
 
-[中文](./README_CN.md)
+[中文](./README_ZH.md)
 
 Community **mod compatibility configs** for [ControlFlex](https://www.curseforge.com/minecraft/mc-mods/control-flex) (CFX): JSON files that tell the mod how to handle third-party key bindings, stick modes, cross-layer keys, and related behavior.
 
 Copy `{modid}_keys.json` from [`compat/`](./compat/) into your **game instance**:
 
 ```text
-config/controlflex/compat/
+config/controlflex/compat/user/
 ```
 
-That folder lives under the instance **game directory** — the same place as `mods/`, `saves/`, and `config/`. The full path depends on your launcher and OS (see below).
+ControlFlex loads compat configs from three layers (priority: `user` > `mods` > `default`):
+- `default/` — built-in configs shipped with ControlFlex
+- `mods/` — installed by bridge mods (via `cfx-compat-*` mods)
+- **`user/`** — your custom configs (highest priority, never overwritten)
 
 Restart the game after adding or updating configs. Check `latest.log` for `[ModCompat]` lines to confirm loading.
 
@@ -32,31 +35,31 @@ Each file is named **`{modid}_keys.json`**, where `{modid}` matches the mod’s 
 ## How to install a config
 
 1. Download or copy `{modid}_keys.json` from [`compat/`](./compat/).
-2. Place it in **`config/controlflex/compat/`** inside your instance (create the folder if needed).
+2. Place it in **`config/controlflex/compat/user/`** inside your instance (create the folder if needed).
 3. Restart Minecraft.
 4. Open ControlFlex settings → confirm the mod’s keys appear and behave as expected.
 5. If something fails, search logs for `[ModCompat] Failed to load compat config` (JSON syntax errors are the most common cause).
 
-Configs shipped inside the ControlFlex JAR are extracted on first launch and **do not overwrite** files you already have in `config/controlflex/compat/`.
+Configs shipped inside the ControlFlex JAR are extracted on first launch and **do not overwrite** files you already have in `config/controlflex/compat/` (they are extracted to `default/`).
 
-### Where is `config/controlflex/compat/`?
+### Where is `config/controlflex/compat/user/`?
 
 **Rule of thumb:** open your instance folder in the launcher (“Open folder”, “Instance folder”, etc.). Go to the directory that contains **`mods/`** — that is the game root. Compat files go in:
 
 ```text
-<game root>/config/controlflex/compat/{modid}_keys.json
+<game root>/config/controlflex/compat/user/{modid}_keys.json
 ```
 
 Some launchers wrap the game root in a `.minecraft` or `minecraft` subfolder. If you see `mods` inside `.minecraft`, use:
 
 ```text
-<instance>/.minecraft/config/controlflex/compat/
+<instance>/.minecraft/config/controlflex/compat/user/
 ```
 
 If `mods` is directly under the instance folder, use:
 
 ```text
-<instance>/config/controlflex/compat/
+<instance>/config/controlflex/compat/user/
 ```
 
 ---
