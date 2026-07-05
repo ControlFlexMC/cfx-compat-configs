@@ -2,7 +2,7 @@
   "mod_id": "jei",
   "mod_name": "Just Enough Items (JEI)",
   "home_page": "https://www.curseforge.com/minecraft/mc-mods/jei",
-  "loader": "both",
+  "loader": ["forge","fabric"],
   "versions": [
     {
       "version": "",

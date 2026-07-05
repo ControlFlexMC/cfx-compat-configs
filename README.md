@@ -95,7 +95,7 @@ If `mods` is directly under the instance folder, use:
   "mod_id": "examplemod",
   "mod_name": "Example Mod",
   "home_page": "https://www.curseforge.com/minecraft/mc-mods/examplemod",
-  "loader": "both",
+  "loader": ["forge"],
   "versions": [
     {
       "version": "",
@@ -124,14 +124,14 @@ If `mods` is directly under the instance folder, use:
 | `mod_id` | string | Yes | Mod ID; must match the loaded mod (e.g. `jei`, `epicfight`). |
 | `mod_name` | string | No | Human-readable mod name for this repo (e.g. `Just Enough Items`). Not required by ControlFlex at runtime today; strongly recommended for contributors. |
 | `home_page` | string | No | Mod project page (CurseForge, Modrinth, GitHub, etc.). For documentation and review; optional at runtime. |
-| `loader` | string | No | `"forge"`, `"fabric"`, or `"both"` (default). Config is skipped on the wrong loader. |
+| `loader` | String[] | No | Loader filter: `["forge"]`, `["fabric"]`, or `["forge","fabric"]`. Omit = all platforms. Config is skipped on the wrong loader. |
 | `versions` | array | Yes | Version-specific rule sets; see [version matching](#version-matching). |
 
 ### `versions[]` fields
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `version` | string | Yes | Semantic version for this block. `""` matches all versions (fallback). |
+| `version` | string | Yes | Semantic version for this block. `""` matches all versions (fallback). Also supports interval notation: `"[1.0,2.0)"`, `"[21.1,)"`, `"(,1.20]"`. |
 | `guiKeys` | string[] | No | Key names assigned to the **GUI layer** (active only while a Screen is open). |
 | `ignoreKeys` | string[] | No | Keys hidden from ControlFlex binding UI. |
 | `skipForgeKeys` | string[] | No | Do **not** send Forge `InputEvent` for these keys (`KeyMapping` path still used unless also skipped). |
@@ -144,9 +144,17 @@ If `mods` is directly under the instance folder, use:
 
 ### Version matching
 
-1. **Exact match** — entry whose `version` equals the installed mod version.
-2. **Nearest lower** — highest entry with `version` &lt; installed version.
-3. **Fallback** — entry with `"version": ""`.
+The `version` field supports three forms. Entries are evaluated **in array order**; the **first match wins**.
+
+| Format | Example | Meaning |
+|--------|---------|---------|
+| Wildcard | `""` | Matches all versions |
+| Exact | `"1.21.1"` | Exact match only |
+| Interval | `"[1.0,2.0)"` | `1.0 ≤ v < 2.0` |
+| Unbounded | `"[21.1,)"` | `v ≥ 21.1` |
+| Unbounded | `"(,1.20]"` | `v ≤ 1.20` |
+
+> Tip: Put specific version entries first, wildcard `""` last as a fallback.
 
 ---
 

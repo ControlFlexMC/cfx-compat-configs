@@ -2,7 +2,7 @@
   "mod_id": "dragonminez",
   "mod_name": "DragonMine Z",
   "home_page": "https://www.curseforge.com/minecraft/mc-mods/dragonminez",
-  "loader": "both",
+  "loader": ["forge","fabric"],
   "versions": [
     {
       "version": "",
