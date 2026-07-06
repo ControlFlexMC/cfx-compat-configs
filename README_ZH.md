@@ -4,6 +4,9 @@
 
 [ControlFlex](https://www.curseforge.com/minecraft/mc-mods/control-flex)（CFX）的**社区模组兼容配置**仓库：通过 JSON 告诉 ControlFlex 如何正确处理第三方模组的按键、摇杆模式、跨层按键等。
 
+> **⚠ 版本要求：** `main` 分支的配置面向 **ControlFlex >= 0.8.5**。
+> 如果你使用的是 ControlFlex **0.8.4 或更低版本**，请改用 [`0.8.4`](https://github.com/ControlFlexMC/cfx-compat-configs/tree/0.8.4) 分支 —— 两个版本的配置格式不兼容。
+
 将 [`compat/`](./compat/) 下的 `{modid}_keys.json` 复制到**游戏实例**目录中：
 
 ```text

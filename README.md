@@ -4,6 +4,9 @@
 
 Community **mod compatibility configs** for [ControlFlex](https://www.curseforge.com/minecraft/mc-mods/control-flex) (CFX): JSON files that tell the mod how to handle third-party key bindings, stick modes, cross-layer keys, and related behavior.
 
+> **⚠ Version requirement:** The configs on the `main` branch target **ControlFlex >= 0.8.5**.
+> If you are on ControlFlex **0.8.4 or lower**, use the [`0.8.4`](https://github.com/ControlFlexMC/cfx-compat-configs/tree/0.8.4) branch instead — config formats differ between these versions.
+
 Copy `{modid}_keys.json` from [`compat/`](./compat/) into your **game instance**:
 
 ```text
