@@ -1,0 +1,36 @@
+{
+  "mod_id": "irons_spellbooks",
+  "mod_name": "Iron's Spells 'n Spellbooks",
+  "home_page": "https://www.curseforge.com/minecraft/mc-mods/irons-spells-n-spellbooks",
+  "versions": [
+    {
+      "version": "",
+      "inGameKeys": {
+        "key.irons_spellbooks.spell_wheel": {
+          "channels": ["keyMapping"]
+        }
+      },
+      "overlayKeys": {
+        "key.irons_spellbooks.spell_wheel": {
+          "channels": ["keyMapping"]
+        },
+        "key.irons_spellbooks.spell_wheel_toggle": {}
+      },
+      "tips": [
+        {
+          "key": "key.irons_spellbooks.spell_wheel",
+          "text": {
+            "en_us": "Hold to open the spell wheel. The wheel is an overlay (not a screen): while it is open the right stick drives the radial cursor over the spell slots, and releasing the wheel key casts the selected spell. For gamepad, bind this key to a button and keep it held while selecting.",
+            "zh_cn": "按住打开法术轮盘。轮盘是 overlay（非 Screen）：打开期间右摇杆驱动径向光标在法术槽间移动，松开轮盘键施放选中的法术。手柄请将该键绑定到按钮并按住选择。"
+          }
+        }
+      ],
+      "overlay": {
+        "io.redspace.ironsspellbooks.gui.overlays.SpellWheelOverlay": {
+          "rightStick": { "behavior": "RADIAL_PATH", "threshold": 0.5, "cursorRadius": 100,
+                          "angleBias": 1.0 }
+        }
+      }
+    }
+  ]
+}

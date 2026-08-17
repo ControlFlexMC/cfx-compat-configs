@@ -30,21 +30,17 @@
         "key.jei.toggleHideIngredient",
         "key.jei.copy.recipe.id"
       ],
-      "guiKeys": [
-        "key.jei.showUses",
-        "key.jei.showRecipe",
-        "key.jei.nextPage",
-        "key.jei.previousPage",
-        "key.jei.nextCategory",
-        "key.jei.previousCategory",
-        "key.jei.previousRecipePage",
-        "key.jei.nextRecipePage",
-        "key.jei.recipeBack"
-      ],
-      "skipForgeKeys": [
-      ],
-      "skipVanillaKeys": [
-      ]
+      "screenKeys": {
+        "key.jei.showUses": {},
+        "key.jei.showRecipe": {},
+        "key.jei.nextPage": {},
+        "key.jei.previousPage": {},
+        "key.jei.nextCategory": {},
+        "key.jei.previousCategory": {},
+        "key.jei.previousRecipePage": {},
+        "key.jei.nextRecipePage": {},
+        "key.jei.recipeBack": {}
+      }
     }
   ]
 }

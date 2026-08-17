@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "name": "ControlFlex Community Configs",
+  "generated": "2026-08-17T22:47:47Z",
+  "items": [
+    {
+      "mod_id": "jei",
+      "mod_name": "Just Enough Items (JEI)",
+      "path": "mods/jei.json",
+      "sha256": "674bff8cbaaef896ae4c18491e587b9e777c3849f627532f46d54c43d9d209f5",
+      "home_pages": [
+        "https://www.curseforge.com/minecraft/mc-mods/jei"
+      ]
+    }
+  ]
+}

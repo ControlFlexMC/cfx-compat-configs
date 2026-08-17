@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "name": "ControlFlex Community Configs",
+  "generated": "2026-08-17T22:47:47Z",
+  "items": [
+    {
+      "mod_id": "dragonminez",
+      "mod_name": "DragonMine Z",
+      "path": "mods/dragonminez.json",
+      "sha256": "2c5f6eb9b8839323da9aaf7c738b9470a038ae92bd7cf60af9bacc44d3a441e4",
+      "home_pages": [
+        "https://www.curseforge.com/minecraft/mc-mods/dragonminez"
+      ]
+    },
+    {
+      "mod_id": "epicfight",
+      "mod_name": "Epic Fight",
+      "path": "mods/epicfight.json",
+      "sha256": "3e70237c76d8730e07bbccda7ed13cfb79a432d707e66aba2272bb6e63c73fda",
+      "home_pages": [
+        "https://www.curseforge.com/minecraft/mc-mods/epic-fight-mod"
+      ]
+    },
+    {
+      "mod_id": "irons_spellbooks",
+      "mod_name": "Iron's Spells 'n Spellbooks",
+      "path": "mods/irons_spellbooks.json",
+      "sha256": "b149598c70b3b270a09e7bbc5ac9674cc7fb6ca231331a1f9bfd5ef19d10cd87",
+      "home_pages": [
+        "https://www.curseforge.com/minecraft/mc-mods/irons-spells-n-spellbooks"
+      ]
+    },
+    {
+      "mod_id": "jei",
+      "mod_name": "Just Enough Items (JEI)",
+      "path": "mods/jei.json",
+      "sha256": "674bff8cbaaef896ae4c18491e587b9e777c3849f627532f46d54c43d9d209f5",
+      "home_pages": [
+        "https://www.curseforge.com/minecraft/mc-mods/jei"
+      ]
+    },
+    {
+      "mod_id": "minemenu",
+      "mod_name": "Mine Menu",
+      "path": "mods/minemenu.json",
+      "sha256": "b6b257a5b0c96c5997f47e21df5ea119f821760b833b76fdd3c90c162ac3bf3a",
+      "home_pages": [
+        "https://www.curseforge.com/minecraft/mc-mods/minemenu"
+      ]
+    }
+  ]
+}
