@@ -2,6 +2,13 @@
   "mod_id": "epicfight",
   "mod_name": "Epic Fight",
   "home_page": "https://www.curseforge.com/minecraft/mc-mods/epic-fight-mod",
+  "dependencies": [
+    { 
+      "mod_id": "cfx_compat_epicfight", 
+      "mod_name": "Control Flex x Epic Fight", 
+      "home_pages": ["https://www.curseforge.com/minecraft/mc-mods/cfx-x-epic"]
+    }
+  ],
   "versions": [
     {
       "version": "",

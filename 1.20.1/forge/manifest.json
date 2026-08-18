@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "ControlFlex Community Configs",
-  "generated": "2026-08-17T22:47:47Z",
+  "generated": "2026-08-18T00:30:54Z",
   "items": [
     {
       "mod_id": "dragonminez",
@@ -25,7 +25,7 @@
       "mod_id": "epicfight",
       "mod_name": "Epic Fight",
       "path": "mods/epicfight.json",
-      "sha256": "3e70237c76d8730e07bbccda7ed13cfb79a432d707e66aba2272bb6e63c73fda",
+      "sha256": "7132dca56dbe01d8964266598964d36722507124d70b069efd6ec06547104f92",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/epic-fight-mod"
       ]
