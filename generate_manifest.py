@@ -19,6 +19,10 @@ mod_name / home_pages from the config content, computes the sha256 of the
 raw file bytes, and atomically writes a manifest following the schema in
 docs/01.community-config-repo-design.md §5.1. Items are sorted by mod_id.
 
+A manifest is only (re)written when the indexed content changed: if the
+new manifest equals the existing one (ignoring the volatile `generated`
+timestamp), the existing manifest.json is left untouched.
+
 Exit code: 0 = success, 1 = warnings (files skipped), 2 = fatal error.
 """
 
@@ -105,8 +109,11 @@ def build_item(file: Path) -> dict | None:
     return item
 
 
-def generate(category: tuple[str, str, Path]) -> int:
-    """Rebuild the manifest for one category. Returns the number of items written."""
+def generate(category: tuple[str, str, Path]) -> tuple[str, int]:
+    """Rebuild the manifest for one category if its content changed.
+
+    Returns (status, item_count); status is "written" or "unchanged".
+    """
     version, loader, category_dir = category
     mods_dir = category_dir / "mods"
 
@@ -133,14 +140,32 @@ def generate(category: tuple[str, str, Path]) -> int:
         "generated": utc_now(),
         "items": items,
     }
+    # Everything except `generated` is deterministic given the mods/ content.
+    stable = {key: value for key, value in manifest.items() if key != "generated"}
 
     manifest_path = category_dir / "manifest.json"
+    existing = None
+    if manifest_path.exists():
+        try:
+            existing = json.loads(manifest_path.read_text(encoding="utf-8"))
+        except (UnicodeDecodeError, json.JSONDecodeError) as exc:
+            warn(f"{manifest_path}: existing manifest is not valid JSON, rewriting ({exc})")
+        if existing is not None and not isinstance(existing, dict):
+            warn(f"{manifest_path}: existing manifest is not a JSON object, rewriting")
+            existing = None
+
+    if existing is not None:
+        existing_stable = {key: value for key, value in existing.items() if key != "generated"}
+        if existing_stable == stable:
+            print(f"{version}/{loader}: unchanged ({len(items)} items), skipping")
+            return "unchanged", len(items)
+
     tmp_path = category_dir / f"manifest.json.tmp{os.getpid()}"
     tmp_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     os.replace(tmp_path, manifest_path)
 
     print(f"{version}/{loader}: {len(items)} items -> {manifest_path.relative_to(ROOT)}")
-    return len(items)
+    return "written", len(items)
 
 
 def main() -> int:
@@ -149,9 +174,11 @@ def main() -> int:
         print(f"error: no <mc-version>/<loader>/mods/ categories found under {ROOT}", file=sys.stderr)
         return 2
 
-    total = sum(generate(category) for category in categories)
+    results = [generate(category) for category in categories]
+    written = sum(status == "written" for status, _ in results)
+    total = sum(count for _, count in results)
     print(
-        f"\nDone: {len(categories)} manifests, {total} items"
+        f"\nDone: {written} written, {len(results) - written} unchanged, {total} items"
         + (f", {len(_warnings)} warning(s) — see stderr" if _warnings else "")
     )
     return 1 if _warnings else 0
