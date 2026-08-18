@@ -2,6 +2,7 @@
   "mod_id": "epicfight",
   "mod_name": "Epic Fight",
   "home_page": "https://www.curseforge.com/minecraft/mc-mods/epic-fight-mod",
+  "contributors": ["ifels"],
   "dependencies": [
     { 
       "mod_id": "cfx_compat_epicfight", 

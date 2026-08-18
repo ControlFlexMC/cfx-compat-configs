@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "name": "ControlFlex Community Configs",
-  "generated": "2026-08-18T00:30:54Z",
+  "generated": "2026-08-18T22:51:41Z",
   "items": [
     {
       "mod_id": "dragonminez",
       "mod_name": "DragonMine Z",
       "path": "mods/dragonminez.json",
-      "sha256": "2c5f6eb9b8839323da9aaf7c738b9470a038ae92bd7cf60af9bacc44d3a441e4",
+      "sha256": "5d6a08c46514e3094248b4e97b2acc11343d123a89c5189425f153ea0b7a1ae0",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/dragonminez"
       ]
@@ -16,7 +16,7 @@
       "mod_id": "epicfight",
       "mod_name": "Epic Fight",
       "path": "mods/epicfight.json",
-      "sha256": "7132dca56dbe01d8964266598964d36722507124d70b069efd6ec06547104f92",
+      "sha256": "bea40cf77f22c330f7396e60884382475c953d196fbcae5586a0879ae647490a",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/epic-fight-mod"
       ]
@@ -25,7 +25,7 @@
       "mod_id": "irons_spellbooks",
       "mod_name": "Iron's Spells 'n Spellbooks",
       "path": "mods/irons_spellbooks.json",
-      "sha256": "b149598c70b3b270a09e7bbc5ac9674cc7fb6ca231331a1f9bfd5ef19d10cd87",
+      "sha256": "cd552d306b54ca4a8c87f7df26e7e8389a1aaba716d3201e2c4371a2614b6418",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/irons-spells-n-spellbooks"
       ]
@@ -34,7 +34,7 @@
       "mod_id": "jei",
       "mod_name": "Just Enough Items (JEI)",
       "path": "mods/jei.json",
-      "sha256": "674bff8cbaaef896ae4c18491e587b9e777c3849f627532f46d54c43d9d209f5",
+      "sha256": "6102f937e393fe84b7ced61458dd960bc14cfc2091c5088aca7b1939feef4465",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/jei"
       ]
@@ -43,7 +43,7 @@
       "mod_id": "minemenu",
       "mod_name": "Mine Menu",
       "path": "mods/minemenu.json",
-      "sha256": "b6b257a5b0c96c5997f47e21df5ea119f821760b833b76fdd3c90c162ac3bf3a",
+      "sha256": "d412e1b0e58cd01258a043bd9163bf99f9f1c0a4a47f9c67f9d17afb64e8764e",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/minemenu"
       ]

@@ -2,6 +2,7 @@
   "mod_id": "dragonminez",
   "mod_name": "DragonMine Z",
   "home_page": "https://www.curseforge.com/minecraft/mc-mods/dragonminez",
+  "contributors": ["ifels"],
   "versions": [
     {
       "version": "",

@@ -2,7 +2,7 @@
   "mod_id": "minemenu",
   "mod_name": "Mine Menu",
   "home_page": "https://www.curseforge.com/minecraft/mc-mods/minemenu",
-  "loader": ["forge","fabric"],
+  "contributors": ["ifels"],
   "versions": [
     {
       "version": "",
