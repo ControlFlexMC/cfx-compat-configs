@@ -10,7 +10,8 @@
       "home_pages": ["https://www.curseforge.com/minecraft/mc-mods/cfx-x-epic"]
     }
   ],
-  "versions": [
+  "config_version": "1.0.0",
+  "mod_versions": [
     {
       "version": "",
       "ignoreKeys": [

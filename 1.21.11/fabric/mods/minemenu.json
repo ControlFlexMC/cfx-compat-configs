@@ -3,7 +3,8 @@
   "mod_name": "Mine Menu",
   "home_page": "https://www.curseforge.com/minecraft/mc-mods/minemenu",
   "contributors": ["ifels"],
-  "versions": [
+  "config_version": "1.0.0",
+  "mod_versions": [
     {
       "version": "",
       "ignoreKeys": [],

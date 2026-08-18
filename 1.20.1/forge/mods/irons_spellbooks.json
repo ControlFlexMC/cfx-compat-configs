@@ -3,7 +3,8 @@
   "mod_name": "Iron's Spells 'n Spellbooks",
   "home_page": "https://www.curseforge.com/minecraft/mc-mods/irons-spells-n-spellbooks",
   "contributors": ["ifels"],
-  "versions": [
+  "config_version": "1.0.0",
+  "mod_versions": [
     {
       "version": "",
       "inGameKeys": {
