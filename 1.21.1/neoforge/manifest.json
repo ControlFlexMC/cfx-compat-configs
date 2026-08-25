@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "ControlFlex Community Configs",
-  "generated": "2026-08-18T23:43:57Z",
+  "generated": "2026-08-25T11:57:57Z",
   "items": [
     {
       "mod_id": "dragonminez",
@@ -25,7 +25,7 @@
       "mod_id": "irons_spellbooks",
       "mod_name": "Iron's Spells 'n Spellbooks",
       "path": "mods/irons_spellbooks.json",
-      "sha256": "4f3bdbeb2fddf9d9598d65289ee255e679dc5880a15360de69c617f83151fd54",
+      "sha256": "f9dfea7e3c5f764db275eeb0831f2dcd418b4ba9fe24cd5e558cc47e3c34713c",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/irons-spells-n-spellbooks"
       ]
