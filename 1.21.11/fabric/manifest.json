@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "name": "ControlFlex Community Configs",
-  "generated": "2026-08-18T23:43:57Z",
+  "generated": "2026-08-29T01:03:58Z",
   "items": [
     {
       "mod_id": "dragonminez",
       "mod_name": "DragonMine Z",
       "path": "mods/dragonminez.json",
-      "sha256": "fcf2e6776f3919d06157d1dcfad775815cc851c5953bb84d16439c557d02bf08",
+      "sha256": "c7038f3a7982f1b899fa218b6dbef5b94ae022d2febc6dff54384eab7edebd69",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/dragonminez"
       ]
@@ -34,7 +34,7 @@
       "mod_id": "irons_spellbooks",
       "mod_name": "Iron's Spells 'n Spellbooks",
       "path": "mods/irons_spellbooks.json",
-      "sha256": "4f3bdbeb2fddf9d9598d65289ee255e679dc5880a15360de69c617f83151fd54",
+      "sha256": "c82ea5e853c75dea602063ce9a1031d4f34b8d444d8ab77dfd3db142be197b8c",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/irons-spells-n-spellbooks"
       ]
@@ -52,7 +52,7 @@
       "mod_id": "minemenu",
       "mod_name": "Mine Menu",
       "path": "mods/minemenu.json",
-      "sha256": "fcddfacaa4fc643606cdec3e3658e7b31b70b30dccb53a80e3086f12bfa44674",
+      "sha256": "ae27f3d32845514acac2e7c21587ab671bd61eb76250aae2b6eafa00a2b31ca8",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/minemenu"
       ]

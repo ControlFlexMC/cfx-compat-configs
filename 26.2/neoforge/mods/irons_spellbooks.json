@@ -2,22 +2,35 @@
   "mod_id": "irons_spellbooks",
   "mod_name": "Iron's Spells 'n Spellbooks",
   "home_page": "https://www.curseforge.com/minecraft/mc-mods/irons-spells-n-spellbooks",
-  "contributors": ["ifels"],
+  "contributors": [
+    "ifels"
+  ],
   "config_version": "1.0.0",
   "mod_versions": [
     {
       "version": "",
+      "ignoreKeys": [],
+      "phasePersistentKeys": {
+        "key.irons_spellbooks.spell_wheel": [
+          "inGame",
+          "overlay"
+        ]
+      },
       "inGameKeys": {
         "key.irons_spellbooks.spell_wheel": {
-          "channels": ["keyMapping"]
+          "channels": [
+            "keyMapping"
+          ]
         }
       },
       "overlayKeys": {
         "key.irons_spellbooks.spell_wheel": {
-          "channels": ["keyMapping"]
-        },
-        "key.irons_spellbooks.spell_wheel_toggle": {}
+          "channels": [
+            "keyMapping"
+          ]
+        }
       },
+      "screenKeys": {},
       "tips": [
         {
           "key": "key.irons_spellbooks.spell_wheel",
@@ -29,8 +42,12 @@
       ],
       "overlay": {
         "io.redspace.ironsspellbooks.gui.overlays.SpellWheelOverlay": {
-          "rightStick": { "behavior": "RADIAL_PATH", "threshold": 0.5, "cursorRadius": 100,
-                          "angleBias": 1.0 }
+          "rightStick": {
+            "behavior": "RADIAL_PATH",
+            "threshold": 0.5,
+            "cursorRadius": 100,
+            "angleBias": 1.0
+          }
         }
       }
     }

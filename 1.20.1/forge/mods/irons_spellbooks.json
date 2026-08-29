@@ -9,6 +9,13 @@
   "mod_versions": [
     {
       "version": "",
+      "ignoreKeys": [],
+      "phasePersistentKeys": {
+        "key.irons_spellbooks.spell_wheel": [
+          "inGame",
+          "overlay"
+        ]
+      },
       "inGameKeys": {
         "key.irons_spellbooks.spell_wheel": {
           "channels": [
@@ -29,9 +36,9 @@
           "channels": [
             "keyMapping"
           ]
-        },
-        "key.irons_spellbooks.spell_wheel_toggle": {}
+        }
       },
+      "screenKeys": {},
       "tips": [
         {
           "key": "key.irons_spellbooks.spell_wheel",
