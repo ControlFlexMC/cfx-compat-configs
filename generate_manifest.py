@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate manifest.json for every <mc-version>/<loader>/ category in this repository.
 
-Layout (docs/01.community-config-repo-design.md §4.1):
+Layout (docs/03.community-config-repo-design.md §4.1):
 
     <repo-root>/
     ├── <mc-version>/          e.g. 1.20.1/
@@ -17,7 +17,7 @@ Usage:
 For each category the script reads every mods/*.json, extracts mod_id /
 mod_name / home_pages from the config content, computes the sha256 of the
 raw file bytes, and atomically writes a manifest following the schema in
-docs/01.community-config-repo-design.md §5.1. Items are sorted by mod_id.
+docs/03.community-config-repo-design.md §5.1. Items are sorted by mod_id.
 
 A manifest is only (re)written when the indexed content changed: if the
 new manifest equals the existing one (ignoring the volatile `generated`
