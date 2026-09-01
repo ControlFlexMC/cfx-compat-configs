@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "ControlFlex Community Configs",
-  "generated": "2026-08-29T01:03:58Z",
+  "generated": "2026-09-01T15:19:19Z",
   "items": [
     {
       "mod_id": "dragonminez",
@@ -19,6 +19,15 @@
       "sha256": "9c10e6862b337f1246ad6dd977d3af2af3dd71053ea8f51422130bd62a005e59",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/epic-fight-mod"
+      ]
+    },
+    {
+      "mod_id": "exposure",
+      "mod_name": "Exposure",
+      "path": "mods/exposure.json",
+      "sha256": "85ea002f4c4d7b8ad02f4d9368cf9950aa9009650350478ba9dd8a45af770e38",
+      "home_pages": [
+        "https://www.curseforge.com/minecraft/mc-mods/exposure"
       ]
     },
     {

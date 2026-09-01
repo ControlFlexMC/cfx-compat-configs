@@ -1,42 +1,15 @@
 {
   "schemaVersion": 1,
   "name": "ControlFlex Community Configs",
-  "generated": "2026-08-29T01:03:58Z",
+  "generated": "2026-09-01T15:19:19Z",
   "items": [
     {
-      "mod_id": "dragonminez",
-      "mod_name": "DragonMine Z",
-      "path": "mods/dragonminez.json",
-      "sha256": "c7038f3a7982f1b899fa218b6dbef5b94ae022d2febc6dff54384eab7edebd69",
+      "mod_id": "exposure",
+      "mod_name": "Exposure",
+      "path": "mods/exposure.json",
+      "sha256": "85ea002f4c4d7b8ad02f4d9368cf9950aa9009650350478ba9dd8a45af770e38",
       "home_pages": [
-        "https://www.curseforge.com/minecraft/mc-mods/dragonminez"
-      ]
-    },
-    {
-      "mod_id": "efn",
-      "mod_name": "EpicFight-Nightfall",
-      "path": "mods/nightfall.json",
-      "sha256": "bdeb23bc2c393d564f2a98e4469c3004f18e1b109c6200ac52126edccf825409",
-      "home_pages": [
-        "https://www.curseforge.com/minecraft/mc-mods/epicfight-nightfall"
-      ]
-    },
-    {
-      "mod_id": "epicfight",
-      "mod_name": "Epic Fight",
-      "path": "mods/epicfight.json",
-      "sha256": "beb1eb72e5f0de1a3a77e9325f97e8fe6114f8bfca1a9836209cf0fd4e1bf30b",
-      "home_pages": [
-        "https://www.curseforge.com/minecraft/mc-mods/epic-fight-mod"
-      ]
-    },
-    {
-      "mod_id": "irons_spellbooks",
-      "mod_name": "Iron's Spells 'n Spellbooks",
-      "path": "mods/irons_spellbooks.json",
-      "sha256": "c82ea5e853c75dea602063ce9a1031d4f34b8d444d8ab77dfd3db142be197b8c",
-      "home_pages": [
-        "https://www.curseforge.com/minecraft/mc-mods/irons-spells-n-spellbooks"
+        "https://www.curseforge.com/minecraft/mc-mods/exposure"
       ]
     },
     {

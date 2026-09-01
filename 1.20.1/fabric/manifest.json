@@ -1,8 +1,17 @@
 {
   "schemaVersion": 1,
   "name": "ControlFlex Community Configs",
-  "generated": "2026-08-18T23:43:57Z",
+  "generated": "2026-09-01T15:19:19Z",
   "items": [
+    {
+      "mod_id": "exposure",
+      "mod_name": "Exposure",
+      "path": "mods/exposure.json",
+      "sha256": "85ea002f4c4d7b8ad02f4d9368cf9950aa9009650350478ba9dd8a45af770e38",
+      "home_pages": [
+        "https://www.curseforge.com/minecraft/mc-mods/exposure"
+      ]
+    },
     {
       "mod_id": "jei",
       "mod_name": "Just Enough Items (JEI)",
