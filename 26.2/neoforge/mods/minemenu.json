@@ -44,7 +44,7 @@
         }
       ],
       "screen": {
-        "dmillerw.menu.gui.RadialMenuScreen": {
+        "com.girafi.minemenu.gui.RadialMenuScreen": {
           "leftStick": {
             "behavior": "DEFAULT"
           },

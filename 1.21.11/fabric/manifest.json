@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "ControlFlex Community Configs",
-  "generated": "2026-09-01T15:18:12Z",
+  "generated": "2026-09-01T22:18:38Z",
   "items": [
     {
       "mod_id": "jei",
@@ -16,7 +16,7 @@
       "mod_id": "minemenu",
       "mod_name": "Mine Menu",
       "path": "mods/minemenu.json",
-      "sha256": "ae27f3d32845514acac2e7c21587ab671bd61eb76250aae2b6eafa00a2b31ca8",
+      "sha256": "add253650afa58beece9f16d55f28ce536a9f9fae5bf2506db0ebcfd8c03b43d",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/minemenu"
       ]
