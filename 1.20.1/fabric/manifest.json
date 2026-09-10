@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "name": "ControlFlex Community Configs",
-  "generated": "2026-09-01T15:19:19Z",
+  "generated": "2026-09-10T22:26:08Z",
   "items": [
     {
       "mod_id": "exposure",
       "mod_name": "Exposure",
       "path": "mods/exposure.json",
-      "sha256": "85ea002f4c4d7b8ad02f4d9368cf9950aa9009650350478ba9dd8a45af770e38",
+      "sha256": "2eba6c6df5dbb0d0424885448a66a8874a9c370c25078021f3f1b8869263a5ed",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/exposure"
       ]
