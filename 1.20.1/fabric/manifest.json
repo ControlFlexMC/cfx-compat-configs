@@ -1,8 +1,17 @@
 {
   "schemaVersion": 1,
   "name": "ControlFlex Community Configs",
-  "generated": "2026-09-10T22:26:08Z",
+  "generated": "2026-09-19T15:37:21Z",
   "items": [
+    {
+      "mod_id": "create",
+      "mod_name": "Create Fabric",
+      "path": "mods/create.json",
+      "sha256": "2c8e8ebea5a38dfb06c374335ea59c9e4dc36238c8aa36e5cbe12b59b2fe1b2a",
+      "home_pages": [
+        "https://www.curseforge.com/minecraft/mc-mods/create-fabric"
+      ]
+    },
     {
       "mod_id": "exposure",
       "mod_name": "Exposure",

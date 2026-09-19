@@ -1,8 +1,17 @@
 {
   "schemaVersion": 1,
   "name": "ControlFlex Community Configs",
-  "generated": "2026-09-10T22:26:08Z",
+  "generated": "2026-09-19T15:37:21Z",
   "items": [
+    {
+      "mod_id": "create",
+      "mod_name": "Create",
+      "path": "mods/create.json",
+      "sha256": "12f1549f8c496fc0f5e195b2d209e846ab1fb186730b285c38b089e4e0a530e0",
+      "home_pages": [
+        "https://www.curseforge.com/minecraft/mc-mods/create"
+      ]
+    },
     {
       "mod_id": "dragonminez",
       "mod_name": "DragonMine Z",
