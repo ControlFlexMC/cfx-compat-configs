@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "ControlFlex Community Configs",
-  "generated": "2026-09-19T15:37:21Z",
+  "generated": "2026-09-21T00:33:49Z",
   "items": [
     {
       "mod_id": "create",
@@ -73,6 +73,15 @@
       "sha256": "ae27f3d32845514acac2e7c21587ab671bd61eb76250aae2b6eafa00a2b31ca8",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/minemenu"
+      ]
+    },
+    {
+      "mod_id": "tacz",
+      "mod_name": "Timeless & Classics Guns: Zero",
+      "path": "mods/tacz.json",
+      "sha256": "1440798388d0b79201bcf96ac36e222bc33426e8d4beff3ec4a56169f842ff2e",
+      "home_pages": [
+        "https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero"
       ]
     }
   ]

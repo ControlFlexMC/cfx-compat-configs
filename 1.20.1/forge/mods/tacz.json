@@ -1,0 +1,108 @@
+{
+  "mod_id": "tacz",
+  "mod_name": "Timeless & Classics Guns: Zero",
+  "home_page": "https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero",
+  "contributors": ["ifels"],
+  "config_version": "1.0.0",
+  "mod_versions": [
+    {
+      "version": "",
+      "inGameKeys": {
+        "channels": ["eventBus"],
+        "key.tacz.inspect.desc": {},
+        "key.tacz.reload.desc": {},
+        "key.tacz.fire_select.desc": {},
+        "key.tacz.melee.desc": {},
+        "key.tacz.zoom.desc": {},
+        "key.tacz.interact.desc": {},
+        "key.tacz.crawl.desc": {},
+        "key.tacz.refit.desc": {},
+        "key.tacz.shoot.desc": {
+          "channels": ["keyMapping"]
+        },
+        "key.tacz.aim.desc": {
+          "channels": ["keyMapping"]
+        }
+      },
+      "screenKeys": {
+        "channels": ["eventBus"],
+        "key.tacz.refit.desc": {}
+      },
+      "overlayKeys": {},
+      "tips": [
+        {
+          "key": "key.tacz.inspect.desc",
+          "text": {
+            "en_us": "TACZ only fires on a keyboard PRESS. TAP / LONG_PRESS / DOUBLE_TAP / RELEASE do not emit that PRESS, so inspect will not run. Set the controller trigger to PRESS (once) or HOLD. Keep the Minecraft binding as H (or any keyboard key), not Unbound.",
+            "zh_cn": "TACZ 只在键盘按下瞬间（PRESS）触发。TAP / LONG_PRESS / DOUBLE_TAP / RELEASE 不会发出这次 PRESS，检视不会生效。请将手柄触发模式设为 PRESS（点一下）或 HOLD（按住），并把 Minecraft 键位保持为 H（或任意键盘键），不要清成未绑定。"
+          }
+        },
+        {
+          "key": "key.tacz.reload.desc",
+          "text": {
+            "en_us": "TACZ only fires on a keyboard PRESS. TAP / LONG_PRESS / DOUBLE_TAP / RELEASE do not emit that PRESS, so reload will not run. Set the controller trigger to PRESS (once) or HOLD. Keep the Minecraft binding as R (or any keyboard key), not Unbound.",
+            "zh_cn": "TACZ 只在键盘按下瞬间（PRESS）触发。TAP / LONG_PRESS / DOUBLE_TAP / RELEASE 不会发出这次 PRESS，换弹不会生效。请将手柄触发模式设为 PRESS（点一下）或 HOLD（按住），并把 Minecraft 键位保持为 R（或任意键盘键），不要清成未绑定。"
+          }
+        },
+        {
+          "key": "key.tacz.fire_select.desc",
+          "text": {
+            "en_us": "TACZ only fires on a keyboard PRESS. TAP / LONG_PRESS / DOUBLE_TAP / RELEASE do not emit that PRESS, so fire-select will not run. Set the controller trigger to PRESS (once) or HOLD. Keep the Minecraft binding as G (or any keyboard key), not Unbound.",
+            "zh_cn": "TACZ 只在键盘按下瞬间（PRESS）触发。TAP / LONG_PRESS / DOUBLE_TAP / RELEASE 不会发出这次 PRESS，开火模式切换不会生效。请将手柄触发模式设为 PRESS（点一下）或 HOLD（按住），并把 Minecraft 键位保持为 G（或任意键盘键），不要清成未绑定。"
+          }
+        },
+        {
+          "key": "key.tacz.melee.desc",
+          "text": {
+            "en_us": "TACZ only fires on a keyboard PRESS. TAP / LONG_PRESS / DOUBLE_TAP / RELEASE do not emit that PRESS, so melee will not run. Set the controller trigger to PRESS (once) or HOLD. Keep the Minecraft binding as V (or any keyboard key), not Unbound.",
+            "zh_cn": "TACZ 只在键盘按下瞬间（PRESS）触发。TAP / LONG_PRESS / DOUBLE_TAP / RELEASE 不会发出这次 PRESS，近战不会生效。请将手柄触发模式设为 PRESS（点一下）或 HOLD（按住），并把 Minecraft 键位保持为 V（或任意键盘键），不要清成未绑定。"
+          }
+        },
+        {
+          "key": "key.tacz.zoom.desc",
+          "text": {
+            "en_us": "TACZ only fires on a keyboard PRESS. TAP / LONG_PRESS / DOUBLE_TAP / RELEASE do not emit that PRESS, so zoom will not run. Set the controller trigger to PRESS (once) or HOLD. Keep the Minecraft binding as V (or any keyboard key), not Unbound.",
+            "zh_cn": "TACZ 只在键盘按下瞬间（PRESS）触发。TAP / LONG_PRESS / DOUBLE_TAP / RELEASE 不会发出这次 PRESS，变焦不会生效。请将手柄触发模式设为 PRESS（点一下）或 HOLD（按住），并把 Minecraft 键位保持为 V（或任意键盘键），不要清成未绑定。"
+          }
+        },
+        {
+          "key": "key.tacz.interact.desc",
+          "text": {
+            "en_us": "TACZ only fires on a keyboard PRESS. TAP / LONG_PRESS / DOUBLE_TAP / RELEASE do not emit that PRESS, so interact will not run. Set the controller trigger to PRESS (once) or HOLD. Keep the Minecraft binding as O (or any keyboard key), not Unbound.",
+            "zh_cn": "TACZ 只在键盘按下瞬间（PRESS）触发。TAP / LONG_PRESS / DOUBLE_TAP / RELEASE 不会发出这次 PRESS，交互不会生效。请将手柄触发模式设为 PRESS（点一下）或 HOLD（按住），并把 Minecraft 键位保持为 O（或任意键盘键），不要清成未绑定。"
+          }
+        },
+        {
+          "key": "key.tacz.refit.desc",
+          "text": {
+            "en_us": "TACZ only fires on a keyboard PRESS. TAP / LONG_PRESS / DOUBLE_TAP / RELEASE do not emit that PRESS, so refit open/close will not run. Set the controller trigger to PRESS (once) or HOLD. Keep the Minecraft binding as Z (or any keyboard key), not Unbound.",
+            "zh_cn": "TACZ 只在键盘按下瞬间（PRESS）触发。TAP / LONG_PRESS / DOUBLE_TAP / RELEASE 不会发出这次 PRESS，改装界面开关不会生效。请将手柄触发模式设为 PRESS（点一下）或 HOLD（按住），并把 Minecraft 键位保持为 Z（或任意键盘键），不要清成未绑定。"
+          }
+        },
+        {
+          "key": "key.tacz.crawl.desc",
+          "text": {
+            "en_us": "TACZ crawl needs a keyboard PRESS (and RELEASE if hold-to-crawl is on). TAP / LONG_PRESS / DOUBLE_TAP / RELEASE do not emit that PRESS, so crawl will not toggle or hold. If TACZ hold-to-crawl is on, bind HOLD; if crawl is a toggle, bind PRESS. Keep the Minecraft binding as C (or any keyboard key), not Unbound.",
+            "zh_cn": "TACZ 匍匐需要键盘 PRESS（若开启「按住匍匐」还需要 RELEASE）。TAP / LONG_PRESS / DOUBLE_TAP / RELEASE 发不出这次 PRESS，匍匐不会切换也不会按住。TACZ 开「按住匍匐」时手柄绑 HOLD；切换匍匐则绑 PRESS。原版键位保持为 C（或任意键盘键），不要清成未绑定。"
+          }
+        },
+        {
+          "key": "key.tacz.aim.desc",
+          "text": {
+            "en_us": "Aim already works from KeyMapping.isDown() (default right mouse). Use HOLD on the controller binding.",
+            "zh_cn": "瞄准已走 KeyMapping.isDown()（默认鼠标右键）。手柄请绑 HOLD。"
+          }
+        },
+        {
+          "key": "key.tacz.shoot.desc",
+          "text": {
+            "en_us": "Shoot already works from KeyMapping.isDown() (default left mouse). Use HOLD on the controller binding.",
+            "zh_cn": "射击已走 KeyMapping.isDown()（默认鼠标左键）。手柄请绑 HOLD。"
+          }
+        }
+      ],
+      "screen": {},
+      "overlay": {}
+    }
+  ]
+}
