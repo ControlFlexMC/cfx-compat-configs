@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "ControlFlex Community Configs",
-  "generated": "2026-09-21T00:33:49Z",
+  "generated": "2026-10-24T13:59:32Z",
   "items": [
     {
       "mod_id": "create",
@@ -73,6 +73,15 @@
       "sha256": "ae27f3d32845514acac2e7c21587ab671bd61eb76250aae2b6eafa00a2b31ca8",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/minemenu"
+      ]
+    },
+    {
+      "mod_id": "superior_tweaks",
+      "mod_name": "Superior Tweaks",
+      "path": "mods/superior_tweaks.json",
+      "sha256": "96a39f0ad6f53c74fd4ca285032597031ff5622ba96539d56530450cf6d67645",
+      "home_pages": [
+        "https://www.curseforge.com/minecraft/mc-mods/superior-tweaks"
       ]
     },
     {

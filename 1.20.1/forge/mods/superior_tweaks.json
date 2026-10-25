@@ -1,0 +1,25 @@
+{
+  "mod_id": "superior_tweaks",
+  "mod_name": "Superior Tweaks",
+  "home_page": "https://www.curseforge.com/minecraft/mc-mods/superior-tweaks",
+  "contributors": ["ifels"],
+  "config_version": "1.0.0",
+  "mod_versions": [
+    {
+      "version": "",
+      "ignoreKeys": [],
+      "inGameKeys": {
+        "channels": [
+          "virtualKbm"
+        ],
+        "key.kubejs.hKeySpecial": {},
+        "key.kubejs.jKeySpecial": {},
+        "key.kubejs.gKeySpecial": {},
+        "key.kubejs.kKeySpecial": {},
+        "key.kubejs.lKeySpecial": {}
+      },
+      "screenKeys": {},
+      "overlayKeys": {}
+    }
+  ]
+}
