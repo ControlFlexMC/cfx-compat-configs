@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "ControlFlex Community Configs",
-  "generated": "2026-10-25T12:28:01Z",
+  "generated": "2026-10-26T00:34:28Z",
   "items": [
     {
       "mod_id": "create",
@@ -19,6 +19,15 @@
       "sha256": "c7038f3a7982f1b899fa218b6dbef5b94ae022d2febc6dff54384eab7edebd69",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/dragonminez"
+      ]
+    },
+    {
+      "mod_id": "effortlessbuilding",
+      "mod_name": "Effortless Building",
+      "path": "mods/effortlessbuilding.json",
+      "sha256": "70a21e62b49fb055629464f58f6182a06e276a2a516325e59613619948c9641f",
+      "home_pages": [
+        "https://www.curseforge.com/minecraft/mc-mods/effortless-building"
       ]
     },
     {

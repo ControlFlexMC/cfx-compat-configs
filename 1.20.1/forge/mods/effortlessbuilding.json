@@ -1,0 +1,59 @@
+{
+  "mod_id": "effortlessbuilding",
+  "mod_name": "Effortless Building",
+  "home_page": "https://www.curseforge.com/minecraft/mc-mods/effortless-building",
+  "contributors": [
+    "ifels"
+  ],
+  "config_version": "1.0.0",
+  "mod_versions": [
+    {
+      "version": "",
+      "inGameKeys": {
+        "channels": [
+          "keyMapping",
+          "eventBus"
+        ],
+        "key.effortlessbuilding.mode.desc": {
+          "channels": [
+            "keyMapping",
+            "eventBus",
+            "glfwPoll"
+          ]
+        }
+      },
+      "screenKeys": {
+        "key.effortlessbuilding.mode.desc": {
+          "channels": [
+            "glfwPoll"
+          ]
+        }
+      },
+      "phasePersistentKeys": {
+        "key.effortlessbuilding.mode.desc": [
+          "inGame",
+          "screen"
+        ]
+      },
+      "tips": [
+        {
+          "key": "key.effortlessbuilding.mode.desc",
+          "text": {
+            "en_us": "Hold to open the build-mode radial menu; release to apply the highlighted mode. HOLD mode only - the pairing forces it. This 1.20.1 build opens the menu from Forge InputEvent.Key (hence the eventBus channel) and closes it from a raw key poll, so all three channels are required. The right stick snaps the cursor onto a wedge; the left stick stays free for the buttons outside the ring.",
+            "zh_cn": "按住打开建造模式环形菜单，松开时应用高亮模式。只能用 HOLD 模式（配对会强制）。1.20.1 这版靠 Forge InputEvent.Key 打开菜单（因此需要 eventBus），又靠裸按键轮询判断松手，所以三个通道缺一不可。右摇杆把光标吸附到扇区，左摇杆保持自由以够到环外的按钮。"
+          }
+        }
+      ],
+      "screen": {
+        "nl.requios.effortlessbuilding.gui.buildmode.RadialMenu": {
+          "rightStick": {
+            "behavior": "RADIAL_PATH",
+            "threshold": 0.5,
+            "cursorRadius": 48,
+            "angleBias": 1.0
+          }
+        }
+      }
+    }
+  ]
+}

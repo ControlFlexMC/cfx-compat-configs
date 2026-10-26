@@ -1,8 +1,17 @@
 {
   "schemaVersion": 1,
   "name": "ControlFlex Community Configs",
-  "generated": "2026-09-10T22:26:08Z",
+  "generated": "2026-10-26T00:34:28Z",
   "items": [
+    {
+      "mod_id": "effortlessbuilding",
+      "mod_name": "Effortless Building",
+      "path": "mods/effortlessbuilding.json",
+      "sha256": "afe015da8b8da9f8a9e551b2af6666d10de26b24b8c2473c4e8ea84b98b08437",
+      "home_pages": [
+        "https://www.curseforge.com/minecraft/mc-mods/effortless-building"
+      ]
+    },
     {
       "mod_id": "exposure",
       "mod_name": "Exposure",
