@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "ControlFlex Community Configs",
-  "generated": "2026-10-26T15:32:53Z",
+  "generated": "2026-11-02T00:33:48Z",
   "items": [
     {
       "mod_id": "create",
@@ -28,6 +28,15 @@
       "sha256": "afe015da8b8da9f8a9e551b2af6666d10de26b24b8c2473c4e8ea84b98b08437",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/effortless-building"
+      ]
+    },
+    {
+      "mod_id": "emi",
+      "mod_name": "EMI",
+      "path": "mods/emi.json",
+      "sha256": "abfad0af36fbfc92f9a6e7a7f5b4c224295046b3dcaa86c29b6a8e08b1637355",
+      "home_pages": [
+        "https://www.curseforge.com/minecraft/mc-mods/emi"
       ]
     },
     {
