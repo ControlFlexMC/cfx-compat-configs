@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "ControlFlex Community Configs",
-  "generated": "2026-09-19T15:37:21Z",
+  "generated": "2026-11-01T04:41:21Z",
   "items": [
     {
       "mod_id": "create",
@@ -10,6 +10,15 @@
       "sha256": "2c8e8ebea5a38dfb06c374335ea59c9e4dc36238c8aa36e5cbe12b59b2fe1b2a",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/create-fabric"
+      ]
+    },
+    {
+      "mod_id": "emi",
+      "mod_name": "EMI",
+      "path": "mods/emi.json",
+      "sha256": "abfad0af36fbfc92f9a6e7a7f5b4c224295046b3dcaa86c29b6a8e08b1637355",
+      "home_pages": [
+        "https://www.curseforge.com/minecraft/mc-mods/emi"
       ]
     },
     {
