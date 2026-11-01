@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "ControlFlex Community Configs",
-  "generated": "2026-11-02T00:48:25Z",
+  "generated": "2026-11-02T14:46:25Z",
   "items": [
     {
       "mod_id": "create",
@@ -82,6 +82,15 @@
       "sha256": "add253650afa58beece9f16d55f28ce536a9f9fae5bf2506db0ebcfd8c03b43d",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/minemenu"
+      ]
+    },
+    {
+      "mod_id": "mts",
+      "mod_name": "Immersive Vehicles (MTS)",
+      "path": "mods/mts.json",
+      "sha256": "b352bce91696fbec9548db5f85d7eaec56f7482d1852410544819d06c4c5acc1",
+      "home_pages": [
+        "https://www.curseforge.com/minecraft/mc-mods/minecraft-transport-simulator"
       ]
     }
   ]
