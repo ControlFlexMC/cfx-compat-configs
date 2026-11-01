@@ -18,9 +18,14 @@
   "mod_versions": [
     {
       "version": "",
-      "inGameKeys": {},
+      "inGameKeys": {
+        "Open configuration screen": {}
+      },
       "screenKeys": {},
       "overlayKeys": {},
+      "ignoreKeys": [
+        "Import Packs (Developers Only)"
+      ],
       "tips": []
     }
   ]
