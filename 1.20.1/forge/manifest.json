@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "ControlFlex Community Configs",
-  "generated": "2026-11-01T13:59:29Z",
+  "generated": "2026-11-01T14:24:52Z",
   "items": [
     {
       "mod_id": "create",
@@ -88,7 +88,7 @@
       "mod_id": "mts",
       "mod_name": "Immersive Vehicles (MTS)",
       "path": "mods/mts.json",
-      "sha256": "b352bce91696fbec9548db5f85d7eaec56f7482d1852410544819d06c4c5acc1",
+      "sha256": "f6ed54772e9533b068c2c68a7e27b6a8edd605c70fd560191fb0012bc8e2cbd6",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/minecraft-transport-simulator"
       ]
