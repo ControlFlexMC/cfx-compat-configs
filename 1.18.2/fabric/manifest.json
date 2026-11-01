@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "name": "ControlFlex Community Configs",
+  "generated": "2026-11-02T00:48:24Z",
+  "items": [
+    {
+      "mod_id": "emi",
+      "mod_name": "EMI",
+      "path": "mods/emi.json",
+      "sha256": "2679d16f32cf753f5cd0c8f3fe1bcf5b9af526ac6e500f9862aafd6c9bce01b0",
+      "home_pages": [
+        "https://www.curseforge.com/minecraft/mc-mods/emi"
+      ]
+    }
+  ]
+}
