@@ -1,0 +1,27 @@
+{
+  "mod_id": "mts",
+  "mod_name": "Immersive Vehicles (MTS)",
+  "home_page": "https://www.curseforge.com/minecraft/mc-mods/minecraft-transport-simulator",
+  "contributors": [
+    "ifels"
+  ],
+  "dependencies": [
+    {
+      "mod_id": "cfx_compat_vehicles",
+      "mod_name": "Control Flex x Vehicles",
+      "home_pages": [
+        "https://www.curseforge.com/minecraft/mc-mods/cfx-x-vehicles"
+      ]
+    }
+  ],
+  "config_version": "1.0.0",
+  "mod_versions": [
+    {
+      "version": "",
+      "inGameKeys": {},
+      "screenKeys": {},
+      "overlayKeys": {},
+      "tips": []
+    }
+  ]
+}
