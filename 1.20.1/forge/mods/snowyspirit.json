@@ -1,0 +1,22 @@
+{
+  "mod_id": "snowyspirit",
+  "mod_name": "Snowy Spirit",
+  "home_page": "https://www.curseforge.com/minecraft/mc-mods/snowy-spirit",
+  "contributors": [
+    "ifels"
+  ],
+  "config_version": "1.0.0",
+  "mod_versions": [
+    {
+      "version": "",
+      "vehicleInput": [
+        {
+          "classes": [
+            "*SledEntity"
+          ],
+          "mode": "WASD"
+        }
+      ]
+    }
+  ]
+}
