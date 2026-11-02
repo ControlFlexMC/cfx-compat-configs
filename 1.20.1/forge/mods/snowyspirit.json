@@ -14,7 +14,7 @@
           "classes": [
             "*SledEntity"
           ],
-          "mode": "WASD"
+          "mode": "EIGHT_WAY"
         }
       ]
     }
