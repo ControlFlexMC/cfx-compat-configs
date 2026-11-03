@@ -12,7 +12,7 @@
       "vehicleInput": [
         {
           "classes": [
-            "*SledEntity"
+            "net.mehvahdjukaar.snowyspirit.common.entity.SledEntity"
           ],
           "mode": "EIGHT_WAY"
         }
