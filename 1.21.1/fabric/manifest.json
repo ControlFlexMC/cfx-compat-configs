@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "ControlFlex Community Configs",
-  "generated": "2026-11-02T00:48:24Z",
+  "generated": "2026-11-03T00:30:53Z",
   "items": [
     {
       "mod_id": "effortlessbuilding",
@@ -46,6 +46,15 @@
       "sha256": "add253650afa58beece9f16d55f28ce536a9f9fae5bf2506db0ebcfd8c03b43d",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/minemenu"
+      ]
+    },
+    {
+      "mod_id": "snowyspirit",
+      "mod_name": "Snowy Spirit",
+      "path": "mods/snowyspirit.json",
+      "sha256": "802d77228dacd585d1dee45e626386816e03d2cd6d4e1bd9f3fd910a5f9d9c2c",
+      "home_pages": [
+        "https://www.curseforge.com/minecraft/mc-mods/snowy-spirit"
       ]
     }
   ]

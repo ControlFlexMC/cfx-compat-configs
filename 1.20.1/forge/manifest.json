@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "ControlFlex Community Configs",
-  "generated": "2026-11-02T15:59:15Z",
+  "generated": "2026-11-03T00:30:52Z",
   "items": [
     {
       "mod_id": "create",
@@ -106,7 +106,7 @@
       "mod_id": "snowyspirit",
       "mod_name": "Snowy Spirit",
       "path": "mods/snowyspirit.json",
-      "sha256": "56fbd9d9615aa2a8c86939e430393a9b3748705b4e17e1a8c2d243d62e9c6e66",
+      "sha256": "802d77228dacd585d1dee45e626386816e03d2cd6d4e1bd9f3fd910a5f9d9c2c",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/snowy-spirit"
       ]
