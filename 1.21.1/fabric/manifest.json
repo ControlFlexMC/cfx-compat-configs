@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "ControlFlex Community Configs",
-  "generated": "2026-11-13T11:51:46Z",
+  "generated": "2026-11-18T01:47:33Z",
   "items": [
     {
       "mod_id": "effortlessbuilding",
@@ -19,6 +19,15 @@
       "sha256": "abfad0af36fbfc92f9a6e7a7f5b4c224295046b3dcaa86c29b6a8e08b1637355",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/emi"
+      ]
+    },
+    {
+      "mod_id": "enchantmentswitch",
+      "mod_name": "Enchantment Switch",
+      "path": "mods/enchantmentswitch.json",
+      "sha256": "ce02d4841d76667341041388b8c55c4ddcd3308c97418eda7d96a9331403fc93",
+      "home_pages": [
+        "https://modrinth.com/mod/enchantment-switch"
       ]
     },
     {
