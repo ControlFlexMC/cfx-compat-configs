@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "ControlFlex Community Configs",
-  "generated": "2026-11-18T01:47:33Z",
+  "generated": "2026-11-18T02:11:26Z",
   "items": [
     {
       "mod_id": "create",
@@ -43,7 +43,7 @@
       "mod_id": "enchantmentswitch",
       "mod_name": "Enchantment Switch",
       "path": "mods/enchantmentswitch.json",
-      "sha256": "ce02d4841d76667341041388b8c55c4ddcd3308c97418eda7d96a9331403fc93",
+      "sha256": "6c9550d34e27310a3237a03ae1389cbce3fa9568bdac71f9d941eba9e1ba24c4",
       "home_pages": [
         "https://modrinth.com/mod/enchantment-switch"
       ]
