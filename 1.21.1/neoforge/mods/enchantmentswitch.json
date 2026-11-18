@@ -12,6 +12,11 @@
           "channels": [
             "glfwPoll"
           ]
+        },
+        "key.enchantmentswitch.edit_enchantments": {
+          "channels": [
+            "glfwPoll"
+          ]
         }
       }
     }
