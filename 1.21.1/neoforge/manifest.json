@@ -1,8 +1,17 @@
 {
   "schemaVersion": 1,
   "name": "ControlFlex Community Configs",
-  "generated": "2026-11-18T02:11:26Z",
+  "generated": "2026-11-19T13:47:08Z",
   "items": [
+    {
+      "mod_id": "cobblemon",
+      "mod_name": "Cobblemon",
+      "path": "mods/cobblemon.json",
+      "sha256": "1056aa49c06f814ae43ab8b9812a41c10924b42c3c16d862faf1245333c82748",
+      "home_pages": [
+        "https://www.curseforge.com/minecraft/mc-mods/cobblemon"
+      ]
+    },
     {
       "mod_id": "create",
       "mod_name": "Create",
