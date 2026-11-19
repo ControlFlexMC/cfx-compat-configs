@@ -12,9 +12,9 @@
         "channels": [
           "virtualKbm"
         ],
+        "key.kubejs.gKeySpecial": {},
         "key.kubejs.hKeySpecial": {},
         "key.kubejs.jKeySpecial": {},
-        "key.kubejs.gKeySpecial": {},
         "key.kubejs.kKeySpecial": {},
         "key.kubejs.lKeySpecial": {}
       },

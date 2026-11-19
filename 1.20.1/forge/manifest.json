@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "ControlFlex Community Configs",
-  "generated": "2026-11-01T14:24:52Z",
+  "generated": "2026-11-13T11:51:46Z",
   "items": [
     {
       "mod_id": "create",
@@ -19,6 +19,15 @@
       "sha256": "c7038f3a7982f1b899fa218b6dbef5b94ae022d2febc6dff54384eab7edebd69",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/dragonminez"
+      ]
+    },
+    {
+      "mod_id": "effortlessbuilding",
+      "mod_name": "Effortless Building",
+      "path": "mods/effortlessbuilding.json",
+      "sha256": "70a21e62b49fb055629464f58f6182a06e276a2a516325e59613619948c9641f",
+      "home_pages": [
+        "https://www.curseforge.com/minecraft/mc-mods/effortless-building"
       ]
     },
     {
@@ -70,7 +79,7 @@
       "mod_id": "jei",
       "mod_name": "Just Enough Items (JEI)",
       "path": "mods/jei.json",
-      "sha256": "a4dcfadbca3d0a8b19be2ec5d191fc12801d199583393ef0fec13007e06b927f",
+      "sha256": "dcda1fd4c452e4415a993a99b3f1ac58ca3442d2d06b63782b77b2eea775a1b3",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/jei"
       ]
@@ -94,10 +103,19 @@
       ]
     },
     {
+      "mod_id": "snowyspirit",
+      "mod_name": "Snowy Spirit",
+      "path": "mods/snowyspirit.json",
+      "sha256": "802d77228dacd585d1dee45e626386816e03d2cd6d4e1bd9f3fd910a5f9d9c2c",
+      "home_pages": [
+        "https://www.curseforge.com/minecraft/mc-mods/snowy-spirit"
+      ]
+    },
+    {
       "mod_id": "superior_tweaks",
       "mod_name": "Superior Tweaks",
       "path": "mods/superior_tweaks.json",
-      "sha256": "96a39f0ad6f53c74fd4ca285032597031ff5622ba96539d56530450cf6d67645",
+      "sha256": "e5f0f33598cfc00ab191fe7d4e32baff663f2722e24b07ca0ee111894c95e6ba",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/superior-tweaks"
       ]

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "ControlFlex Community Configs",
-  "generated": "2026-11-01T04:41:21Z",
+  "generated": "2026-11-13T11:51:46Z",
   "items": [
     {
       "mod_id": "create",
@@ -34,9 +34,18 @@
       "mod_id": "jei",
       "mod_name": "Just Enough Items (JEI)",
       "path": "mods/jei.json",
-      "sha256": "a4dcfadbca3d0a8b19be2ec5d191fc12801d199583393ef0fec13007e06b927f",
+      "sha256": "dcda1fd4c452e4415a993a99b3f1ac58ca3442d2d06b63782b77b2eea775a1b3",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/jei"
+      ]
+    },
+    {
+      "mod_id": "snowyspirit",
+      "mod_name": "Snowy Spirit",
+      "path": "mods/snowyspirit.json",
+      "sha256": "802d77228dacd585d1dee45e626386816e03d2cd6d4e1bd9f3fd910a5f9d9c2c",
+      "home_pages": [
+        "https://www.curseforge.com/minecraft/mc-mods/snowy-spirit"
       ]
     }
   ]

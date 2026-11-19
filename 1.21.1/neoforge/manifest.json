@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "ControlFlex Community Configs",
-  "generated": "2026-11-01T14:24:52Z",
+  "generated": "2026-11-18T02:11:26Z",
   "items": [
     {
       "mod_id": "create",
@@ -22,12 +22,30 @@
       ]
     },
     {
+      "mod_id": "effortlessbuilding",
+      "mod_name": "Effortless Building",
+      "path": "mods/effortlessbuilding.json",
+      "sha256": "afe015da8b8da9f8a9e551b2af6666d10de26b24b8c2473c4e8ea84b98b08437",
+      "home_pages": [
+        "https://www.curseforge.com/minecraft/mc-mods/effortless-building"
+      ]
+    },
+    {
       "mod_id": "emi",
       "mod_name": "EMI",
       "path": "mods/emi.json",
       "sha256": "abfad0af36fbfc92f9a6e7a7f5b4c224295046b3dcaa86c29b6a8e08b1637355",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/emi"
+      ]
+    },
+    {
+      "mod_id": "enchantmentswitch",
+      "mod_name": "Enchantment Switch",
+      "path": "mods/enchantmentswitch.json",
+      "sha256": "6c9550d34e27310a3237a03ae1389cbce3fa9568bdac71f9d941eba9e1ba24c4",
+      "home_pages": [
+        "https://modrinth.com/mod/enchantment-switch"
       ]
     },
     {
@@ -61,7 +79,7 @@
       "mod_id": "jei",
       "mod_name": "Just Enough Items (JEI)",
       "path": "mods/jei.json",
-      "sha256": "a4dcfadbca3d0a8b19be2ec5d191fc12801d199583393ef0fec13007e06b927f",
+      "sha256": "dcda1fd4c452e4415a993a99b3f1ac58ca3442d2d06b63782b77b2eea775a1b3",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/jei"
       ]
@@ -82,6 +100,15 @@
       "sha256": "f6ed54772e9533b068c2c68a7e27b6a8edd605c70fd560191fb0012bc8e2cbd6",
       "home_pages": [
         "https://www.curseforge.com/minecraft/mc-mods/minecraft-transport-simulator"
+      ]
+    },
+    {
+      "mod_id": "snowyspirit",
+      "mod_name": "Snowy Spirit",
+      "path": "mods/snowyspirit.json",
+      "sha256": "802d77228dacd585d1dee45e626386816e03d2cd6d4e1bd9f3fd910a5f9d9c2c",
+      "home_pages": [
+        "https://www.curseforge.com/minecraft/mc-mods/snowy-spirit"
       ]
     }
   ]

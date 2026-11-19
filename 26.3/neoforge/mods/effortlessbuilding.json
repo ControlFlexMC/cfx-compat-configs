@@ -1,0 +1,56 @@
+{
+  "mod_id": "effortlessbuilding",
+  "mod_name": "Effortless Building",
+  "home_page": "https://www.curseforge.com/minecraft/mc-mods/effortless-building",
+  "contributors": [
+    "ifels"
+  ],
+  "config_version": "1.0.0",
+  "mod_versions": [
+    {
+      "version": "",
+      "inGameKeys": {
+        "channels": [
+          "keyMapping"
+        ],
+        "key.effortlessbuilding.open_radial_menu": {
+          "channels": [
+            "glfwPoll"
+          ]
+        }
+      },
+      "screenKeys": {
+        "key.effortlessbuilding.open_radial_menu": {
+          "channels": [
+            "glfwPoll"
+          ]
+        }
+      },
+      "phasePersistentKeys": {
+        "key.effortlessbuilding.open_radial_menu": [
+          "inGame",
+          "screen"
+        ]
+      },
+      "tips": [
+        {
+          "key": "key.effortlessbuilding.open_radial_menu",
+          "text": {
+            "en_us": "Hold to open the build-mode radial menu; release to apply the highlighted mode. HOLD mode only — the pairing forces it. Push the right stick in a direction to snap the cursor onto that wedge; the left stick still moves the cursor freely so the undo/redo/config buttons outside the ring stay reachable. Undo/Redo additionally need a real Ctrl key.",
+            "zh_cn": "按住打开建造模式环形菜单，松开时应用高亮模式。只能用 HOLD 模式（配对会强制）。右摇杆拨向哪个方向，光标就吸附到对应扇区；左摇杆仍是自由移动的光标，用来够环外的撤销/重做/设置按钮。撤销/重做仍需要真实的 Ctrl 键。"
+          }
+        }
+      ],
+      "screen": {
+        "nl.requios.effortlessbuilding.screen.RadialMenu": {
+          "rightStick": {
+            "behavior": "RADIAL_PATH",
+            "threshold": 0.5,
+            "cursorRadius": 48,
+            "angleBias": 1.0
+          }
+        }
+      }
+    }
+  ]
+}

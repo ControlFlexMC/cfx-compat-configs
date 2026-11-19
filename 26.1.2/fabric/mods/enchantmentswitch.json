@@ -1,0 +1,24 @@
+{
+  "mod_id": "enchantmentswitch",
+  "mod_name": "Enchantment Switch",
+  "home_page": "https://modrinth.com/mod/enchantment-switch",
+  "contributors": ["ifels"],
+  "config_version": "1.0.0",
+  "mod_versions": [
+    {
+      "version": "",
+      "screenKeys": {
+        "key.edit_enchantments": {
+          "channels": [
+            "glfwPoll"
+          ]
+        },
+        "key.enchantmentswitch.edit_enchantments": {
+          "channels": [
+            "glfwPoll"
+          ]
+        }
+      }
+    }
+  ]
+}
