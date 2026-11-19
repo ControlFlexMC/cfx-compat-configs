@@ -1,8 +1,17 @@
 {
   "schemaVersion": 1,
   "name": "ControlFlex Community Configs",
-  "generated": "2026-11-13T11:51:46Z",
+  "generated": "2026-11-19T12:54:17Z",
   "items": [
+    {
+      "mod_id": "cobblemon",
+      "mod_name": "Cobblemon",
+      "path": "mods/cobblemon.json",
+      "sha256": "1a8bb268ca029d7a97a69ce5bf19e78444d2466d695bea94c4e56038385fd39e",
+      "home_pages": [
+        "https://www.curseforge.com/minecraft/mc-mods/cobblemon"
+      ]
+    },
     {
       "mod_id": "create",
       "mod_name": "Create Fabric",
