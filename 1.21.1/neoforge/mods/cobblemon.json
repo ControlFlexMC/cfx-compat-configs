@@ -1,0 +1,35 @@
+{
+  "mod_id": "cobblemon",
+  "mod_name": "Cobblemon",
+  "home_page": "https://www.curseforge.com/minecraft/mc-mods/cobblemon",
+  "contributors": [
+    "ifels"
+  ],
+  "dependencies": [
+    {
+      "mod_id": "cfx_compat_cobblemon",
+      "mod_name": "Control Flex x Cobblemon",
+      "home_pages": [
+        "https://www.curseforge.com/minecraft/mc-mods/cfx-x-cobblemon"
+      ]
+    }
+  ],
+  "config_version": "1.0.0",
+  "mod_versions": [
+    {
+      "version": "",
+      "screen": {
+        "com.cobblemon.mod.common.client.gui.battle.BattleGUI": {},
+        "com.cobblemon.mod.common.client.gui.summary.Summary": {},
+        "com.cobblemon.mod.common.client.gui.interact.wheel.InteractWheelGUI": {
+          "rightStick": {
+            "behavior": "RADIAL_PATH",
+            "threshold": 0.5,
+            "cursorRadius": 70
+          }
+        },
+        "com.cobblemon.mod.common.client.gui.interact.battleRequest.BattleConfigureGUI": {}
+      }
+    }
+  ]
+}
